@@ -1,0 +1,38 @@
+#include <iostream>
+
+int main() {
+	
+	float a, b, c;
+	std::cout << "Enter a: ";
+	std::cin >> a;
+	
+	std::cout << "Enter b: ";
+	std::cin >> b;
+	
+	char math;
+	std::cout << "enter the operation: ";
+	std::cin >> math ; 
+	
+	switch (math){
+	case '+':
+		c = a+b;
+		break; 
+	case '-':
+		c = a-b;
+		break;   
+	case '/':
+		c = a/b;
+		break;
+	case '*':
+		c = a*b;
+		break;    		
+	}
+	
+	std::cout << "Result: " << c << std::endl ;
+	 
+	return 0;
+}
+	
+	
+
+
